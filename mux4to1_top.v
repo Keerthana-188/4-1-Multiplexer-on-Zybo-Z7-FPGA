@@ -1,24 +1,3 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 24.12.2025 21:41:52
-// Design Name: 
-// Module Name: mux4to1_top
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 module mux4to1_top (
     input  [3:0] sw,      // SW0-SW3 as data inputs
     input  [1:0] btn,     // BTN0=S0, BTN1=S1 as select
